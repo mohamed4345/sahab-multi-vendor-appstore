@@ -1,0 +1,198 @@
+@font-face {
+    src: url("../font/Tajawal-Regular.ttf");
+    font-family: "main";
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "main", sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container1 {
+    max-width: 1100px;
+}
+
+.form-login {
+    margin-top: 11%;
+}
+
+.btn-green {
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(73, 185, 117);
+    color: white;
+}
+
+.nav-item {
+    color: gray;
+}
+
+.line {
+    background: linear-gradient(to right, rgba(255, 208, 7) 0%, rgba(255, 208, 7) 12.5%, rgba(192, 156, 221, 1) 62.5%, rgba(192, 156, 221, 1) 75%);
+    height: 5px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    float: right !important;
+    padding-left: 0.5rem;
+}
+
+.breadcrumb-item a,
+li {
+    text-decoration: none;
+}
+
+.description,
+.attributes {
+    box-shadow: rgb(216 176 142) 0px -4px;
+}
+
+
+.additional {
+    box-shadow: rgb(192 156 221) 0px -4px !important;
+}
+
+.Similar {
+    background-color: #f7f6f6;
+
+}
+
+footer h5 {
+    font-size: 15px;
+}
+
+footer h6 {
+    font-size: 13px;
+}
+
+footer h4 {
+    font-size: 19px;
+}
+
+footer li {
+    font-size: 15px;
+}
+
+.bg-blueviolet2 {
+    background-color: #7600d9;
+    height: 36px;
+}
+
+.facebook {
+    background-color: #3c5a99;
+}
+
+.instagram,
+.send {
+    background-color: #7600d9;
+}
+
+.top-par {
+    background-image: url(../images/slider-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 360px;
+    opacity: 1;
+    visibility: inherit;
+}
+
+.categories {
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(54, 52, 51);
+}
+
+.itmes {
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+.item {
+    padding: 10px;
+}
+
+.item img {
+    width: 75px;
+    box-shadow: 0 4px 3px -2px grey;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.search {
+    background-color: rgb(65, 130, 195);
+}
+
+.backg {
+    background-color: #f9f7f6;
+}
+
+.btn2 {
+    white-space: nowrap;
+
+}
+
+.heart1 {
+    position: absolute;
+    left: 23px;
+    top: 16px;
+    font-size: 25px;
+}
+
+.fa-heart.heart1:hover {
+    color: red;
+}
+
+.bg {
+    background-color: #dfdede;
+}
+
+.dropdown-menu {
+    width: 900px;
+}
+
+.dropdown-menu[data-bs-popper] {
+    right: 0;
+}
+
+.point {
+    background-color: #7600d9;
+    width: 21px;
+    height: 21px;
+    top: -4px;
+    right: 25px;
+}
+
+.point1 {
+    top: -4px;
+    right: 4px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 10px;
+}
+
+.input-group-text {
+    background-color: white !important;
+    border-radius: 0px;
+}
+
+.form-control {
+    border-radius: 0px;
+}

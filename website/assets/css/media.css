@@ -1,0 +1,13 @@
+@media(max-width : 768px) {
+   .logo {
+      width: 25%;
+   }
+
+   .heart1 {
+      top: 264px;
+   }
+
+
+}
+
+@media(width:768px) {}
